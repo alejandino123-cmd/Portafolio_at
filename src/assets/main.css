@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Paleta del Gestor de Proyectos (formato HSL de DaisyUI 3).
+   0A1931 · 1A3D63 · 4A7FA7 · B3CFE5 · F6FAFD, con fondo blanco.
+   El selector doble asegura que gane sobre el tema por defecto. */
+:root:root,
+:root[data-theme] {
+  color-scheme: light;
+  --p: 211.2 58.4% 24.5%;
+  --pf: 211.9 60.8% 20.0%;
+  --pc: 205.7 63.6% 97.8%;
+  --s: 205.8 38.6% 47.3%;
+  --sf: 206.4 41.6% 39.6%;
+  --sc: 0.0 0.0% 100.0%;
+  --a: 206.4 49.0% 80.0%;
+  --af: 207.5 43.1% 73.1%;
+  --ac: 216.9 66.1% 11.6%;
+  --n: 216.9 66.1% 11.6%;
+  --nf: 217.1 67.7% 6.1%;
+  --nc: 205.7 63.6% 97.8%;
+  --b1: 0.0 0.0% 100.0%;
+  --b2: 205.7 63.6% 97.8%;
+  --b3: 207.3 45.8% 90.6%;
+  --bc: 216.9 66.1% 11.6%;
+  --in: 206.4 49.0% 80.0%;
+  --inc: 216.9 66.1% 11.6%;
+  --su: 205.8 38.6% 47.3%;
+  --suc: 0.0 0.0% 100.0%;
+  --wa: 40.0 72.7% 55.5%;
+  --wac: 216.9 66.1% 11.6%;
+  --er: 1.5 53.0% 54.9%;
+  --erc: 0.0 0.0% 100.0%;
+}
